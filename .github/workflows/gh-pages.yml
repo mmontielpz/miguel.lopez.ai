@@ -13,6 +13,7 @@ jobs:
       with:
         submodules: true
         persist-credentials: true
+        fetch-depth: 0
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3
