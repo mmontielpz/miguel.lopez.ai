@@ -1,0 +1,15 @@
+# Bloqueos y estadísticas de Hugo
+.hugo_build.lock
+hugo_stats.json
+
+# Carpeta de build local (no versionar)
+/public/
+/.hugo_cache/
+
+# Archivos de configuración del editor
+.DS_Store
+.vscode/
+*.swp
+
+# Node modules (si llegas a usar)
+node_modules/
