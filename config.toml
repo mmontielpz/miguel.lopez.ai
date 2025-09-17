@@ -1,13 +1,80 @@
 baseURL   = "https://mmontielpz.github.io/miguel.lopez.ai/"
-languageCode = "en-us"
-title     = "Miguel López"
+languageCode = "es-mx"
+title     = "Miguel López — AI Consultant"
 theme     = "PaperMod"
 
+# Opcional: desactivar taxonomías si no las usas
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
+# Salidas para home, posts y secciones
 [outputs]
   home     = ["HTML","RSS","JSON"]
   section  = ["HTML"]
   page     = ["HTML"]
   taxonomy = ["RSS"]
   term     = ["HTML"]
+
+# ---------------------------
+# Parámetros específicos de PaperMod
+# ---------------------------
+[params]
+  defaultTheme = "auto"          # dark/light según sistema
+  ShowReadingTime = true
+  ShowShareButtons = false
+  disableSpecial1stPost = true
+  comments = false
+  images = []
+  customCSS = ["css/global.css"]
+
+  # Hero de inicio
+  [params.homeInfoParams]
+    Title = "Hola, soy Miguel López"
+    Content = "AI Consultant | Data Science Leader\nAyudo a empresas en LATAM a transformar procesos con IA."
+
+  # Redes sociales
+  [[params.socialIcons]]
+    name = "github"
+    url  = "https://github.com/mmontielpz"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/tu-perfil"
+
+  [[params.socialIcons]]
+    name = "email"
+    url  = "mailto:tu-correo@ejemplo.com"
+
+# ---------------------------
+# Menú principal
+# ---------------------------
+[menu]
+
+  [[menu.main]]
+    name = "Servicios"
+    url  = "/services/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Portafolio"
+    url  = "/portfolio/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Sobre mí"
+    url  = "/about/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Blog"
+    url  = "/posts/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Contacto"
+    url  = "/contact/"
+    weight = 5
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
