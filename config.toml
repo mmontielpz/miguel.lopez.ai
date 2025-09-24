@@ -26,10 +26,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   images = []
   customCSS = ["css/global.css"]
 
-  # Hero de inicio
-  [params.homeInfoParams]
-    Title = "Hola, soy Miguel López"
-    Content = "Ayudo a organizaciones en LATAM a adoptar IA de forma práctica y sostenible"
+# Hero de inicio
+#  [params.homeInfoParams]
+#    Content = "Ayudo a organizaciones en LATAM a adoptar IA de forma práctica y sostenible"
+#    Title = "Hola, soy Miguel López"
 
   # Redes sociales
   [[params.socialIcons]]

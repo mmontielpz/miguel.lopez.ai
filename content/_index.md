@@ -58,5 +58,8 @@ title: "Inicio"
 ## ¿Hablamos?
 
 <p>
-  <a href="/contact/" class="btn-primary">Contáctame →</a>
+  ¿Quieres explorar cómo la Inteligencia Artificial puede transformar tu negocio en <strong>LATAM</strong>?  
+</p>
+<p>
+  <a href="/contact/" class="btn-primary">Hablemos de tu proyecto →</a>
 </p>
