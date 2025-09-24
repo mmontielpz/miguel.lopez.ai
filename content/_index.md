@@ -9,6 +9,7 @@ title: "Inicio"
   <strong>Inteligencia Artificial</strong> que generen valor real en <strong>LATAM</strong>.
 </p>
 
+
 <p style="text-align:center;">
   <a href="#servicios" class="btn-primary">Ver servicios →</a>
 </p>
