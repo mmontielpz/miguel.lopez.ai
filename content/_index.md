@@ -2,16 +2,20 @@
 title: "Inicio"
 ---
 
-<!-- Hero con CTA -->
-<p>
-  <a href="/about/" class="btn-primary">
-    Conóceme →
-  </a>
+## Bienvenido
+
+<p class="hero-text">
+  Te ayudo a validar, diseñar e implementar proyectos de 
+  <strong>Inteligencia Artificial</strong> que generen valor real en <strong>LATAM</strong>.
+</p>
+
+<p style="text-align:center;">
+  <a href="#servicios" class="btn-primary">Ver servicios →</a>
 </p>
 
 ---
 
-## Cómo puedo ayudarte
+## Cómo puedo ayudarte {#servicios}
 
 <div class="card-grid">
   <div class="card">
