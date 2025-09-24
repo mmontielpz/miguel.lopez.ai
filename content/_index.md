@@ -65,6 +65,10 @@ title: "Inicio"
 <p>
   ¿Quieres explorar cómo la Inteligencia Artificial puede transformar tu negocio en <strong>LATAM</strong>?  
 </p>
-<p>
-  <a href="/contact/" class="btn-primary">Hablemos de tu proyecto →</a>
+
+<p style="text-align:center;">
+  <a href="https://wa.me/526644164937" class="btn-whatsapp" target="_blank" rel="noopener">
+    {{< icon "whatsapp" >}} Hablemos por WhatsApp →
+  </a>
 </p>
+
