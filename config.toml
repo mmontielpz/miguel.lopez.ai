@@ -4,7 +4,7 @@ title     = "Miguel López — AI Consultant"
 theme     = "PaperMod"
 
 # Opcional: desactivar taxonomías si no las usas
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy"]
 
 # Salidas para home, posts y secciones
 [outputs]

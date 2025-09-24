@@ -112,3 +112,45 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 180px;
   box-shadow: var(--shadow);
 }
+
+.site-footer {
+  margin-top: 60px;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  border-top: 1px solid #ddd;
+  background: #f9f9f9;
+}
+
+.site-footer {
+  margin-top: 60px;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  border-top: 1px solid #ddd;
+  background: #f9f9f9;
+}
+
+.site-footer .social {
+  margin-top: 8px;
+}
+
+.site-footer .social a {
+  display: inline-block;
+  margin: 0 10px;
+  color: var(--color-primary);
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.site-footer .social a svg {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.site-footer .social a:hover {
+  transform: translateY(-2px);
+  opacity: 0.8;
+}

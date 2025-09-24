@@ -1,0 +1,5 @@
+{{- $name := . -}}
+{{- $path := printf "icons/%s.svg" $name -}}
+{{- with resources.Get $path }}
+  {{ .Content | safeHTML }}
+{{- end }}
