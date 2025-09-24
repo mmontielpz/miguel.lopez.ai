@@ -37,11 +37,21 @@ title: "Inicio"
 
 ## Sobre mí
 
-<p>
-Soy consultor en Inteligencia Artificial con experiencia en proyectos de análisis de datos, automatización y transformación digital. 
-Mi enfoque está en apoyar a organizaciones en LATAM a adoptar la IA de manera estratégica y sostenible.
-<a href="/about/" class="btn-primary">Ver más →</a>
-</p>
+<div class="about-grid">
+  <div class="about-photo">
+    <img src="images/mike.png" alt="Miguel López" />
+  </div>
+  <div class="about-text">
+    <p>
+      Soy <strong>Miguel López</strong>, consultor en Inteligencia Artificial. 
+      Acompaño a organizaciones en <strong>LATAM</strong> a descubrir oportunidades de IA y convertirlas en proyectos reales, 
+      prácticos y sostenibles que generan valor en el negocio.
+    </p>
+    <p>
+      <a href="/about/" class="btn-primary">Ver más →</a>
+    </p>
+  </div>
+</div>
 
 ---
 

@@ -78,3 +78,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+# ---------------------------
+# Configuración de rutas
+# ---------------------------
+relativeURLs = true
+canonifyURLs = false
