@@ -88,3 +88,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.6em;
   color: var(--color-text);
 }
+
+
+.icon {
+  margin-bottom: 12px;
+  color: var(--color-primary);
+}
+.icon svg {
+  width: 40px;
+  height: 40px;
+}

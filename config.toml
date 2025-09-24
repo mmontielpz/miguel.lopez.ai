@@ -29,7 +29,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # Hero de inicio
   [params.homeInfoParams]
     Title = "Hola, soy Miguel López"
-    Content = "AI Consultant | Data Science Leader\nAyudo a empresas en LATAM a transformar procesos con IA."
+    Content = "Ayudo a organizaciones en LATAM a adoptar IA de forma práctica y sostenible"
 
   # Redes sociales
   [[params.socialIcons]]

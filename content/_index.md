@@ -15,16 +15,21 @@ title: "Inicio"
 
 <div class="card-grid">
   <div class="card">
+    <div class="icon">{{< icon "training" >}}</div>
     <h3>Entrenamientos en AI</h3>
-    <p>Capacitaciones prácticas en el uso de herramientas de inteligencia artificial para equipos en LATAM.</p>
+    <p>Capacita a tu equipo en el uso de herramientas de IA para que trabajen más rápido, reduzcan errores y tomen mejores decisiones.</p>
   </div>
+
   <div class="card">
+    <div class="icon">{{< icon "feasibility" >}}</div>
     <h3>Análisis de factibilidad</h3>
-    <p>Evaluación de proyectos de IA para validar viabilidad técnica y financiera antes de realizar inversiones.</p>
+    <p>Valida la viabilidad técnica y financiera de tus ideas en IA antes de invertir, reduciendo riesgos y asegurando el mejor uso de tus recursos.</p>
   </div>
+
   <div class="card">
+    <div class="icon">{{< icon "solutions" >}}</div>
     <h3>Soluciones a la medida</h3>
-    <p>Diseño e implementación de soluciones personalizadas de IA y ciencia de datos adaptadas a tu negocio.</p>
+    <p>Diseño e implemento soluciones de IA adaptadas a tu negocio en LATAM, enfocadas en generar impacto real y resultados sostenibles.</p>
   </div>
 </div>
 
