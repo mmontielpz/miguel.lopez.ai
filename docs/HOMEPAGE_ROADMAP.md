@@ -12,45 +12,49 @@ Este documento define los pasos para dejar la página principal (homepage) lista
 ---
 
 ## 2. Servicios / Cómo puedo ayudarte
-- [x] Cards con tres servicios principales (Entrenamientos, Análisis de factibilidad, Soluciones a la medida).  
-- [x] Añadir íconos simples a cada card para mejor visual.  
-- [ ] Revisar y mejorar textos → orientarlos más a beneficios/resultados (qué gana el cliente).  
+- [x] Cards con tres servicios principales (Mentoría y Estrategias de Adopción de IA, Análisis de factibilidad, Soluciones a la medida).  
+- [x] Añadir íconos simples, uniformes y centrados.  
+- [x] Revisar y mejorar textos → orientados a beneficios/resultados (qué gana el cliente).  
+- [ ] Hacer que las cards sean clicables → redirigir a detalle del servicio.  
 
 ---
 
 ## 3. Sobre mí (mini)
 - [x] Texto corto y botón “Ver más”.  
 - [x] Foto profesional añadida con borde degradado y efecto flotante.  
-- [ ] Redactar versión breve más personal y cercana.  
+- [x] Redactar versión breve más personal y cercana.  
 
 ---
 
 ## 4. CTA final
-- [x] Botón de contacto presente.  
-- [x] Reforzar CTA → ahora con botón de WhatsApp verde oscuro con ícono.  
-- [ ] Decidir si mostrar también el correo directo (ej. en CTA o footer).  
+- [x] Botón de WhatsApp verde oscuro con ícono (CTA principal).  
+- [x] Sección independiente de **Formulario de contacto** (Google Forms embebido).  
+- [ ] Validar si mantenemos también el correo como opción en CTA/footer.  
 
 ---
 
 ## 5. Detalles visuales
 - [x] Global CSS con Inter/Poppins + botones + cards.  
-- [x] Definir paleta base (Azul primario, Verde WhatsApp secundario, fondo claro).  
-- [x] Crear footer básico con derechos e íconos de redes sociales.  
+- [x] Definir paleta base (Azul corporativo, Verde WhatsApp, grises neutrales).  
+- [x] Footer básico con redes sociales.  
 - [x] Ajustar espaciados y márgenes en desktop.  
-- [ ] Revisar consistencia de espaciados y tamaños en móvil.  
+- [x] Revisar consistencia en móvil (botones apilados, cards a una columna, form responsivo).  
+- [ ] Agregar logo en navbar que redirija a Home.  
+- [ ] Cambiar menú superior por hamburguesa en móvil.  
 
 ---
 
 ## 6. Preparación para merge
-- [ ] Testear en móvil y tablet (responsividad).  
-- [ ] Validar accesibilidad mínima (contraste, legibilidad).  
+- [x] Testear en móvil y tablet (responsividad).  
+- [x] Validar accesibilidad mínima (contraste, legibilidad).  
+- [x] SEO básico (title, description, alt text, Open Graph).  
 - [ ] Hacer commit final y abrir PR a `develop`.  
 
 ---
 
-📌 **Estado actual:** ~75% completo.  
+📌 **Estado actual:** ~90% completo.  
 **Pendientes clave:**  
-1. Mejorar textos de servicios.  
-2. Hacer el “Sobre mí” más personal.  
-3. Decidir correo en CTA/footer.  
-4. Validar móvil + accesibilidad.  
+1. Decidir correo en CTA/footer.  
+2. Hacer cards clicables (enlazar a detalle de servicios).  
+3. Logo en navbar + menú hamburguesa en móvil.  
+4. Commit final y PR a `develop`.  
