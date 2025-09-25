@@ -1,10 +1,15 @@
 baseURL   = "https://mmontielpz.github.io/miguel.lopez.ai/"
 languageCode = "es-mx"
-title     = "Miguel López — AI Consultant"
+title = "Miguel López – Consultor en Inteligencia Artificial en LATAM"
 theme     = "PaperMod"
 
 # Opcional: desactivar taxonomías si no las usas
 disableKinds = ["taxonomy"]
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
 # Salidas para home, posts y secciones
 [outputs]
@@ -18,18 +23,20 @@ disableKinds = ["taxonomy"]
 # Parámetros específicos de PaperMod
 # ---------------------------
 [params]
+  description = "Consultoría en Inteligencia Artificial para empresas en LATAM. Mentoría, análisis de factibilidad y soluciones a la medida con impacto real en el negocio."
   defaultTheme = "auto"          # dark/light según sistema
   ShowReadingTime = true
   ShowShareButtons = false
   disableSpecial1stPost = true
   comments = false
-  images = []
+  images = ["images/mike.png"]   # usada para previews sociales
   customCSS = ["css/global.css"]
 
-# Hero de inicio
-#  [params.homeInfoParams]
-#    Content = "Ayudo a organizaciones en LATAM a adoptar IA de forma práctica y sostenible"
-#    Title = "Hola, soy Miguel López"
+  # Open Graph & Twitter Cards
+  [params.seo]
+    enable = true
+    image = "images/mike.png"
+    twitterCard = "summary_large_image"
 
   # Redes sociales
   [[params.socialIcons]]
@@ -42,7 +49,7 @@ disableKinds = ["taxonomy"]
 
   [[params.socialIcons]]
     name = "email"
-    url  = "mailto:tu-correo@ejemplo.com"
+    url  = "mailto:contacto@miguelconsultoria.ai"
 
 # ---------------------------
 # Menú principal

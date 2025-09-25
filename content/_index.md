@@ -44,7 +44,7 @@ title: "Inicio"
 
 <div class="about-grid">
   <div class="about-photo">
-    <img src="images/mike.png" alt="Miguel López" />
+    <img src="images/mike.png" alt="Foto de Miguel López, consultor en Inteligencia Artificial en LATAM" />
   </div>
   <div class="about-text">
     <p>

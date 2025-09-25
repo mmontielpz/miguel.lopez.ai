@@ -299,3 +299,38 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   background: #fff; /* opcional: fondo blanco uniforme */
 }
+
+
+/* ============================
+   Responsividad móvil
+   ============================ */
+@media (max-width: 480px) {
+  /* Botones CTA (WhatsApp + Email) */
+  .btn-whatsapp, .btn-email {
+    display: block;
+    width: 90%;              /* ancho cómodo en móvil */
+    margin: 10px auto;       /* centrados con espacio entre ellos */
+    text-align: center;
+  }
+
+  /* Cards de servicios */
+  .card-grid {
+    grid-template-columns: 1fr; /* fuerza a 1 columna */
+    gap: 16px;                  /* menos espacio entre cards */
+  }
+
+  .card {
+    padding: 16px;
+  }
+
+  /* Formulario de contacto */
+  .contact-form {
+    margin: 20px auto;
+    width: 95%;            /* evitar bordes pegados */
+    max-width: 100%;
+  }
+
+  .contact-form iframe {
+    height: 900px;         /* aumenta si hace falta para evitar scroll interno */
+  }
+}
