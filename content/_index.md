@@ -70,7 +70,17 @@ title: "Inicio"
   <a href="https://wa.me/526644164937" class="btn-whatsapp" target="_blank" rel="noopener">
     {{< icon "whatsapp" >}} Hablemos por WhatsApp →
   </a>
-  <a href="mailto:contacto@miguelconsultoria.ai" class="btn-email" target="_blank" rel="noopener">
-    {{< icon "email" >}} Escríbeme por correo →
-  </a>
 </p>
+
+---
+
+## 📩 Formulario de contacto
+
+<p>
+  Si prefieres dejar tus datos, completa este formulario y me pondré en contacto contigo lo antes posible.
+</p>
+
+<div class="contact-form">
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe6RdJXILQvNSL_xc-Rsa-DPZ-CwN5Szni2y0fUF9RTUdTzLg/viewform?embedded=true"
+          width="100%" height="650" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+</div>
