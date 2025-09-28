@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ============================
-   Footer
+   Footer refinado
    ============================ */
 .site-footer {
   margin-top: 80px;
@@ -148,8 +148,15 @@ h1, h2, h3, h4, h5, h6 {
   background: #f9f9f9;
 }
 
+.site-footer .tagline {
+  margin: 4px 0 12px 0;
+  font-size: 0.95rem;
+  color: var(--color-text);
+  font-weight: 500;
+}
+
 .site-footer .social {
-  margin-top: 12px;
+  margin-top: 8px;
 }
 
 .site-footer .social a {
