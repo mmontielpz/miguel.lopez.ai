@@ -15,7 +15,7 @@ Este documento define los pasos para dejar la página principal (homepage) lista
 - [x] Cards con tres servicios principales (Mentoría y Estrategias de Adopción de IA, Análisis de factibilidad, Soluciones a la medida).  
 - [x] Añadir íconos simples, uniformes y centrados.  
 - [x] Revisar y mejorar textos → orientados a beneficios/resultados (qué gana el cliente).  
-- [ ] Hacer que las cards sean clicables → redirigir a detalle del servicio.  
+- [x] Hacer que las cards sean clicables → redirigir a detalle del servicio.  
 
 ---
 
@@ -29,32 +29,30 @@ Este documento define los pasos para dejar la página principal (homepage) lista
 ## 4. CTA final
 - [x] Botón de WhatsApp verde oscuro con ícono (CTA principal).  
 - [x] Sección independiente de **Formulario de contacto** (Google Forms embebido).  
-- [ ] Validar si mantenemos también el correo como opción en CTA/footer.  
+- [x] Correo movido al footer como canal secundario.  
 
 ---
 
 ## 5. Detalles visuales
 - [x] Global CSS con Inter/Poppins + botones + cards.  
 - [x] Definir paleta base (Azul corporativo, Verde WhatsApp, grises neutrales).  
-- [x] Footer básico con redes sociales.  
+- [x] Footer refinado con tagline y redes sociales.  
 - [x] Ajustar espaciados y márgenes en desktop.  
 - [x] Revisar consistencia en móvil (botones apilados, cards a una columna, form responsivo).  
-- [ ] Agregar logo en navbar que redirija a Home.  
-- [ ] Cambiar menú superior por hamburguesa en móvil.  
+- [x] Agregar logo en navbar que redirija a Home.  
+- [x] Cambiar menú superior por hamburguesa en móvil.  
 
 ---
 
 ## 6. Preparación para merge
 - [x] Testear en móvil y tablet (responsividad).  
-- [x] Validar accesibilidad mínima (contraste, legibilidad).  
+- [x] Validar accesibilidad mínima (contraste, legibilidad, alt text, iframe title).  
 - [x] SEO básico (title, description, alt text, Open Graph).  
 - [ ] Hacer commit final y abrir PR a `develop`.  
 
 ---
 
-📌 **Estado actual:** ~90% completo.  
+📌 **Estado actual:** ~98% completo.  
 **Pendientes clave:**  
-1. Decidir correo en CTA/footer.  
-2. Hacer cards clicables (enlazar a detalle de servicios).  
-3. Logo en navbar + menú hamburguesa en móvil.  
-4. Commit final y PR a `develop`.  
+1. Definir si se agrega imagen/avatar en el hero.  
+2. Commit final y abrir PR a `develop`.  
