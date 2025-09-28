@@ -367,3 +367,60 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   margin-right: 1rem;
 }
+
+
+/* ====== Header base ====== */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background: #fff;
+  box-shadow: var(--shadow);
+  position: sticky; top: 0; z-index: 1000;
+}
+
+.navbar-logo img { height: 40px; width: auto; display: block; }
+
+.navbar-menu { display: flex; gap: 1.25rem; }
+.navbar-menu a {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--color-text);
+}
+.navbar-menu a:hover { color: var(--color-primary); }
+
+/* Botón hamburguesa (oculto en desktop) */
+.hamburger {
+  display: none;
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+}
+
+/* ====== Responsive ====== */
+@media (max-width: 768px) {
+  .hamburger { display: block; }              /* mostrar botón en móvil */
+  .navbar-menu {
+    display: none;                             /* oculto por defecto en móvil */
+    position: absolute;
+    right: 20px; top: 60px;
+    background: #fff;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 12px 16px;
+    flex-direction: column;
+    gap: 0.75rem;
+    min-width: 200px;
+  }
+  .navbar-menu.active { display: flex; }
+}
+
+/* ====== REGLA DE DEBUG (temporal) ======
+   Si no ves la hamburguesa, descomenta la línea siguiente para forzarla:
+*/
+/*
+.hamburger { display: block !important; outline: 1px dashed #f59e0b; }
+*/

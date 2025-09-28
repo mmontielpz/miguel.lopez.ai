@@ -11,4 +11,20 @@
       {{ partial "icon.html" "email" }}
     </a>
   </div>
+
+  <!-- Script para hamburguesa -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const hamburger = document.querySelector(".hamburger");
+      const menu = document.querySelector("#navbar-menu");
+      if (!hamburger || !menu) return;
+
+    hamburger.addEventListener("click", function () {
+      const isOpen = menu.classList.toggle("active");
+      hamburger.setAttribute("aria-expanded", isOpen ? "true" : "false");
+      // Cambia el icono a X cuando está abierto (opcional)
+      hamburger.textContent = isOpen ? "✕" : "☰";
+    });
+  });
+  </script>
 </footer>
