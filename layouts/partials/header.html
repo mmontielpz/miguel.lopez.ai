@@ -1,0 +1,18 @@
+  <header class="site-header">
+  <!-- Logo -->
+  <a href="{{ .Site.BaseURL }}" class="navbar-logo" aria-label="Ir al inicio">
+    <img src="{{ "images/logo.png" | relURL }}" alt="Logo ML – Miguel López, consultor en Inteligencia Artificial en LATAM" />
+  </a>
+
+  <!-- Botón hamburguesa (visible en móvil) -->
+  <button class="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="navbar-menu">
+    ☰
+  </button>
+
+  <!-- Menú (desktop visible, móvil colapsado) -->
+  <nav id="navbar-menu" class="navbar-menu">
+    {{ range .Site.Menus.main }}
+      <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+    {{ end }}
+  </nav>
+</header>

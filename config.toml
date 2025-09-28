@@ -1,13 +1,99 @@
 baseURL   = "https://mmontielpz.github.io/miguel.lopez.ai/"
-languageCode = "en-us"
-title     = "Miguel López"
+languageCode = "es-mx"
+title = "Miguel López – Consultor en Inteligencia Artificial en LATAM"
 theme     = "PaperMod"
 
-disableKinds = ["taxonomy", "taxonomyTerm"]
+# Opcional: desactivar taxonomías si no las usas
+disableKinds = ["taxonomy"]
 
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+# Salidas para home, posts y secciones
 [outputs]
   home     = ["HTML","RSS","JSON"]
   section  = ["HTML"]
   page     = ["HTML"]
   taxonomy = ["RSS"]
   term     = ["HTML"]
+
+# ---------------------------
+# Parámetros específicos de PaperMod
+# ---------------------------
+[params]
+  description = "Consultoría en Inteligencia Artificial para empresas en LATAM. Mentoría, análisis de factibilidad y soluciones a la medida con impacto real en el negocio."
+  defaultTheme = "auto"          # dark/light según sistema
+  ShowReadingTime = true
+  ShowShareButtons = false
+  disableSpecial1stPost = true
+  comments = false
+  images = ["images/mike.png"]   # usada para previews sociales
+  customCSS = ["css/global.css"]
+
+  # Open Graph & Twitter Cards
+  [params.seo]
+    enable = true
+    image = "images/mike.png"
+    twitterCard = "summary_large_image"
+
+  # Redes sociales
+  [[params.socialIcons]]
+    name = "github"
+    url  = "https://github.com/mmontielpz"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/tu-perfil"
+
+  [[params.socialIcons]]
+    name = "email"
+    url  = "mailto:contacto@miguelconsultoria.ai"
+
+[params.assets]
+  favicon = "favicon.ico"
+  favicon16x16 = "favicon-16x16.png"
+  favicon32x32 = "favicon-32x32.png"
+  apple_touch_icon = "apple-touch-icon.png"
+
+# ---------------------------
+# Menú principal
+# ---------------------------
+[menu]
+
+  [[menu.main]]
+    name = "Servicios"
+    url  = "/services/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Portafolio"
+    url  = "/portfolio/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Sobre mí"
+    url  = "/about/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Blog"
+    url  = "/posts/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Contacto"
+    url  = "/contact/"
+    weight = 5
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# ---------------------------
+# Configuración de rutas
+# ---------------------------
+relativeURLs = true
+canonifyURLs = false
