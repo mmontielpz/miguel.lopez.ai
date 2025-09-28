@@ -4,10 +4,10 @@ title: "Inicio"
 
 ## Bienvenido
 
-<p class="hero-text">
+<h1 class="hero-text">
   Te ayudo a validar, diseñar e implementar proyectos de 
   <strong>Inteligencia Artificial</strong> que generen valor real en <strong>LATAM</strong>.
-</p>
+</h1>
 
 
 <p style="text-align:center;">
@@ -83,6 +83,7 @@ title: "Inicio"
 </p>
 
 <div class="contact-form">
-  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe6RdJXILQvNSL_xc-Rsa-DPZ-CwN5Szni2y0fUF9RTUdTzLg/viewform?embedded=true"
-          width="100%" height="650" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe6RdJXILQvNSL_xc-Rsa-DPZ-CwN5Szni2y0fUF9RTUdTzLg/viewform?embedded=true"
+        width="100%" height="650" frameborder="0" marginheight="0" marginwidth="0"
+    title="Formulario de contacto para consultoría de IA en LATAM">Cargando…</iframe>
 </div>
