@@ -50,12 +50,16 @@ title: "Inicio"
   </div>
   <div class="about-text">
     <p>
-      Soy <strong>Miguel López</strong>, consultor en Inteligencia Artificial en <strong>LATAM</strong>.  
-      Mi misión es que la IA deje de ser teoría y se convierta en resultados reales para tu negocio.  
-      Creo en la innovación accesible, responsable y con impacto positivo.
+      Soy <strong>Miguel López</strong>, <em>Applied Scientist</em> y <strong>Data Science Manager</strong> con más de 5 años de experiencia diseñando e implementando soluciones de <em>Inteligencia Artificial</em> en <strong>salud, manufactura y robótica</strong>.  
     </p>
     <p>
-      <a href="/about/" class="btn-primary">Ver más →</a>
+      He liderado el desarrollo de la práctica de IA en ITJ Labs, colaborado con la industria y la academia, y publicado en conferencias y editoriales internacionales (Springer, SPIE).  
+    </p>
+    <p>
+      Con un <strong>doctorado en ciencias</strong> y un <strong>MBA en curso</strong>, combino investigación, estrategia de negocio y liderazgo de equipos para acercar la IA responsable y práctica al mercado <strong>LATAM</strong>.  
+    </p>
+    <p>
+      <a href="/about/" class="btn-primary">Conoce mi trayectoria →</a>
     </p>
   </div>
 </div>

@@ -31,6 +31,30 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
+/* Botones exclusivos del About */
+.about-btn-primary,
+.about-btn-secondary {
+  display: inline-block;
+  padding: 14px 28px;            /* más robustos que antes */
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;               /* asegura consistencia */
+  letter-spacing: 0.3px;         /* un poco de aire en las letras */
+  transition: all 0.25s ease-in-out;
+  border: 2.5px solid var(--color-text); /* borde más grueso */
+  color: var(--color-text);
+  background: transparent;
+}
+
+.about-btn-primary:hover,
+.about-btn-secondary:hover {
+  background: var(--color-text);
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
 /* ============================
    Cards
    ============================ */
@@ -431,3 +455,39 @@ h1, h2, h3, h4, h5, h6 {
 /*
 .hamburger { display: block !important; outline: 1px dashed #f59e0b; }
 */
+
+/* About page */
+.about-hero {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.about-hero-photo {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+.about-hero-text h1 {
+  margin: 0;
+}
+.about-section {
+  background: #f9f9f9;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.about-list {
+  list-style: none;
+  padding-left: 0;
+}
+.about-list li {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+
