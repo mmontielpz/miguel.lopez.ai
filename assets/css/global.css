@@ -490,4 +490,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.5;
 }
 
-
+/* Grid para Portafolio */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin: 40px 0;
+}
